@@ -79,6 +79,7 @@ img.farm {
     gap: 50px;
     margin: 0 50px;;
     flex: auto;
+    padding: 0 70px 32px 70px;
 }
 
 .staff-heading {
@@ -111,7 +112,7 @@ img.farm {
 .about-text h4,
 .about-text h3 {
     margin: 16px 0;
-    color:
+    color: rgb(58, 58, 58);
 }
 
 .images {
@@ -120,6 +121,43 @@ img.farm {
     object-fit: cover;
     border-radius: 50%;
     border: 3px solid rgb(0, 0, 0);
+}
+
+.wrapper {
+    font-size: 30px;
+    background-color: #ffdb58;
+    color:rgb(58, 58, 58);
+    padding: 100px 200px;
+}
+
+.wrapper h3 {
+    text-align: end;
+    color:rgb(0, 0, 0);
+}
+
+.bottomWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 800px;
+    background-color: #bed2d1;
+    border-radius: 10px;
+    margin: 50px;
+}
+
+.call-to-action button {
+    height: 40px;
+    width: 100px;
+}
+
+.call-text {
+    padding: 20px;
 }
 
 footer {
